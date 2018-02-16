@@ -308,8 +308,7 @@ public class SplashScreen extends CordovaPlugin {
                     splashImageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
                 }
                 else {
-                    // FIT_XY scales image non-uniformly to fit into image view.
-                    splashImageView.setScaleType(ImageView.ScaleType.FIT_XY);
+                    splashImageView.setScaleType(ImageView.ScaleType.CENTER);
                 }
 
                 // Create and show the dialog
